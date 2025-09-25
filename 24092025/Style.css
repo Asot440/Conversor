@@ -1,0 +1,20 @@
+h1{
+    color: steelblue;
+}
+
+h2{
+    color: cadetblue;
+}
+
+label{
+    color: lightseagreen;
+}
+
+button{
+    background: darkblue;
+    color: aliceblue;
+}
+
+body{
+    background-color: bisque;
+}
