@@ -22,3 +22,20 @@ function Evaluar(){
 
 var btnEvaluar=document.getElementById("BtnEvaluar");
 btnEvaluar.addEventListener("click", Evaluar);
+
+function EvaluarCalificacion(){
+    estudiante=document.getElementById("estudiante").value;
+    calificacion=document.getElementById("calificacion").value;
+
+    if(calificacion >= 6){
+        estado="¡Felicidades, el estudiante "+estudiante+ " esta aprovado!"
+    }
+    else{
+        estado="Lo siento, el estudiante "+estudiante+ " ha reprobado"
+    }
+
+    document.getElementById("area1").value=estado;
+}
+
+var btnCalificacion=document.getElementById("BtnCalificacion");
+btnCalificacion.addEventListener("click", EvaluarCalificacion);
